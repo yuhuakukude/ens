@@ -318,9 +318,7 @@ export default function Address({
 
   return (
     <>
-      <NonMainPageBannerContainerWithMarginBottom>
-        <DAOBannerContent />
-      </NonMainPageBannerContainerWithMarginBottom>
+      <NonMainPageBannerContainerWithMarginBottom />
 
       {showOriginBanner && showOriginBannerFlag && (
         <Banner>
