@@ -260,7 +260,7 @@ function DetailsContainer({
         </GracePeriodWarningContainer>
       )}
       <OwnerFields outOfSync={outOfSync}>
-        {domain.parent === 'eth' && domain.isNewRegistrar ? (
+        {domain.parent === 'bnb' && domain.isNewRegistrar ? (
           <>
             <DetailsItemEditable
               domain={domain}

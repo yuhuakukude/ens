@@ -3944,10 +3944,10 @@
     dns-packet "^5.2.1"
     js-sha3 "^0.8.0"
 
-"@siddomains/ui@^1.3.6":
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/@siddomains/ui/-/ui-1.3.6.tgz#3e88f09a7999d0d3f45f7eaea9716443e60efe8a"
-  integrity sha512-9cNl5t/t3lEx27y9vszJP/wqy2smREqVHsq6VaVIfnm7SbzHVF1wHN6r2a7amZdwJQJBXrMud2AkkLjTSI1qmQ==
+"@siddomains/ui@^1.3.7":
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/@siddomains/ui/-/ui-1.3.7.tgz#5f27bee5d6b12d438d8e33b752665b70eefbbb0f"
+  integrity sha512-AkvVIF0N6uR91J/nZgP9Bn6uIBfN0Nq+pl6nidEH7qHE0KHkVJpivV5bbLbaAKfC+wbPSuHNpmnfaVSxJH7IKw==
   dependencies:
     "@0xproject/utils" "^2.0.2"
     "@babel/plugin-proposal-class-properties" "^7.8.3"
