@@ -36,7 +36,9 @@ const HeroTop = styled('div')`
   `}
 `
 
-const NoAccounts = styled(NoAccountsDefault)``
+const NoAccounts = styled(NoAccountsDefault)`
+  margin-top: 0;
+`
 
 const Network = styled('div')`
   margin-left: 20px;
@@ -52,7 +54,9 @@ const Name = styled('span')`
 const NetworkStatus = styled('div')`
   flex: 1;
   color: white;
-  font-weight: 200;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
   text-transform: capitalize;
   display: flex;
   align-items: center;
@@ -81,11 +85,12 @@ const Nav = styled('div')`
   display: flex;
   flex: 1;
   justify-content: center;
+  align-items: center;
   ${mq.small`
     justify-content: flex-end;
   `}
   a {
-    font-weight: 300;
+    font-weight: 700;
     color: white;
   }
 `
@@ -101,6 +106,9 @@ const NavLink = styled(Link)`
 const ExternalLink = styled('a')`
   margin-left: 20px;
   color: #25ffb1 !important;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
   &:first-child {
     margin-left: 0;
   }

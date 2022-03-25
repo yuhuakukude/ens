@@ -8,7 +8,7 @@ import mq from 'mediaQuery'
 const TabLink = styled(Link)`
   font-size: 14px;
   background: ${({ active }) => (active ? '#5ED6AB' : 'transparent')};
-  color: ${({ active }) => (active ? 'white' : '#D2D2D2')};
+  color: ${({ active }) => (active ? 'white!important' : '#B1B1B1 !important')};
   transform: scale(${({ active }) => (active ? '1.08' : '1')});
   transition: background 0.1s ease-out, transform 0.3s ease-out;
   padding: 5px 20px;
@@ -18,10 +18,9 @@ const TabLink = styled(Link)`
   ${mq.small`
     padding: 10px 30px;
   `}
-  &:hover,
-  &:visited {
+  &:hover {
     background: #5ed6ab;
-    color: ${({ active }) => (active ? 'white' : 'white')};
+    color: white !important;
   }
 `
 

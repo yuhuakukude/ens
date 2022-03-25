@@ -34,7 +34,7 @@ const SideNavContainer = styled('nav')`
     margin-top: 25px;
     height: auto;
     background: transparent;
-    width: 165px;
+    width: 200px;
     display: block;
   `}
 
@@ -62,8 +62,9 @@ const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 200;
-  font-size: 22px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
   color: ${p => (p.active ? '#47C799' : '#C7D3E3')};
   padding: 10px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -100,8 +101,9 @@ const ThirdPartyLink = styled('a')`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 200;
-  font-size: 22px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
   color: ${p => (p.active ? '#47C799' : '#B1B1B1')};
   padding: 10px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -117,7 +119,7 @@ const ThirdPartyLink = styled('a')`
 
   span {
     transition: 0.2s;
-    margin-left: 15px;
+    margin-left: 10px;
     color: ${p => (p.active ? '#47C799' : '#B1B1B1')};
   }
 

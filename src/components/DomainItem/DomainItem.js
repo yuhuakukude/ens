@@ -27,7 +27,7 @@ const Container = styled.div`
 
 const DomainContainer = styled(Link)`
   padding: 20px;
-  color: #2b2b2b;
+  color: #379170;
   overflow: hidden;
   position: relative;
   background: ${({ percentDone }) =>
@@ -42,6 +42,8 @@ const DomainContainer = styled(Link)`
   grid-gap: 10px;
   align-items: center;
   font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
   margin-bottom: 4px;
   transition: 0.2s all;
   border-radius: 20px;

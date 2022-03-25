@@ -51,7 +51,6 @@ const NetworkStatus = styled('div')`
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 100;
-  margin-top: -2px;
   margin-left: 65px;
   display: flex;
   align-items: center;
@@ -81,20 +80,20 @@ const Account = styled('div')`
 `
 
 const AccountContainer = styled('div')`
-  padding: 10px 10px 10px 10px;
+  padding: 15px 0 0;
   position: relative;
   ${mq.medium`
-    transform: translate(-25px, 5px);
-    width: 225px;
-    &:hover {
-      background: white;
-      box-shadow: -4px 18px 70px 0 rgba(108, 143, 167, 0.32);
-      border-radius: 6px;
-      .account {
-        overflow: visible;
-        white-space: normal;
-      }
-    }
+    // transform: translate(-25px, 5px);
+    width: 100%;
+    // &:hover {
+    //   background: white;
+    //   box-shadow: -4px 18px 70px 0 rgba(108, 143, 167, 0.32);
+    //   border-radius: 6px;
+    //   .account {
+    //     overflow: visible;
+    //     white-space: normal;
+    //   }
+    // }
   `}
 `
 
@@ -148,7 +147,7 @@ function NetworkInformation() {
             <NoAccountsModal
               onClick={disconnectProvider}
               buttonText={t('c.disconnect')}
-              colour={'#F5A623'}
+              colour={'#0191E2'}
             />
           )}
         </AccountContainer>
@@ -162,7 +161,7 @@ function NetworkInformation() {
           </NetworkStatus>
           <NoAccountsModal
             onClick={connectProvider}
-            colour={'#F5A623'}
+            colour={'#25FFB1'}
             buttonText={t('c.connect')}
           />
         </AccountContainer>
