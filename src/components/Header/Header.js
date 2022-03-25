@@ -89,6 +89,7 @@ const SearchHeader = styled(Search)`
     color: #ffffff;
     font-size: 20px;
     border-radius: 16px;
+    margin-right: 48px;
     &::placeholder {
       color: rgba(255, 255, 255, 0.75);
     }
