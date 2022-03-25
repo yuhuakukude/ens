@@ -28,7 +28,7 @@ const NetworkInformationContainer = styled('div')`
 const Blockies = styled(UnstyledBlockies)`
   border-radius: 50%;
   position: absolute;
-  left: 10px;
+  left: 0px;
   top: 10px;
   ${mq.medium`
     box-shadow: 3px 5px 24px 0 #d5e2ec;
@@ -51,7 +51,7 @@ const NetworkStatus = styled('div')`
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 100;
-  margin-left: 65px;
+  margin-left: 56px;
   display: flex;
   align-items: center;
   margin-bottom: 16px;
@@ -76,7 +76,7 @@ const Account = styled('div')`
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin-left: 65px;
+  margin-left: 56px;
 `
 
 const AccountContainer = styled('div')`
