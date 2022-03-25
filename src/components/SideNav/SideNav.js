@@ -30,8 +30,8 @@ const SideNavContainer = styled('nav')`
   margin-top: -10px;
   ${mq.medium`
     padding: 0;
-    left: 35px;
-    margin-top: 50px;
+    left: 100px;
+    margin-top: 25px;
     height: auto;
     background: transparent;
     width: 165px;
@@ -64,7 +64,7 @@ const NavLink = styled(Link)`
   justify-content: center;
   font-weight: 200;
   font-size: 22px;
-  color: ${p => (p.active ? '#5284FF' : '#C7D3E3')};
+  color: ${p => (p.active ? '#47C799' : '#C7D3E3')};
   padding: 10px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
@@ -80,18 +80,18 @@ const NavLink = styled(Link)`
   span {
     transition: 0.2s;
     margin-left: 15px;
-    color: ${p => (p.active ? '#5284FF' : '#C7D3E3')};
+    color: ${p => (p.active ? '#47C799' : '#B1B1B1')};
   }
 
   &:hover {
     span {
-      color: #5284ff;
+      color: #47c799;
     }
     path {
-      fill: #5284ff;
+      fill: #47c799;
     }
     g {
-      fill: #5284ff;
+      fill: #47c799;
     }
   }
 `
@@ -102,7 +102,7 @@ const ThirdPartyLink = styled('a')`
   justify-content: center;
   font-weight: 200;
   font-size: 22px;
-  color: ${p => (p.active ? '#5284FF' : '#C7D3E3')};
+  color: ${p => (p.active ? '#47C799' : '#B1B1B1')};
   padding: 10px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
@@ -118,18 +118,18 @@ const ThirdPartyLink = styled('a')`
   span {
     transition: 0.2s;
     margin-left: 15px;
-    color: ${p => (p.active ? '#5284FF' : '#C7D3E3')};
+    color: ${p => (p.active ? '#47C799' : '#B1B1B1')};
   }
 
   &:hover {
     span {
-      color: #5284ff;
+      color: #47c799;
     }
     path {
-      fill: #5284ff;
+      fill: #47c799;
     }
     g {
-      fill: #5284ff;
+      fill: #47c799;
     }
   }
 `

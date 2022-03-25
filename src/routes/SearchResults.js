@@ -87,7 +87,7 @@ const ResultsContainer = ({ searchDomain, match }) => {
   if (parsed) {
     return (
       <>
-        <H2>
+        <H2 style={{ color: '#47C799' }}>
           <Trans i18nKey="singleName.search.title">Names</Trans>
         </H2>
         <DomainInfo searchTerm={parsed} />

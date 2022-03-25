@@ -64,6 +64,11 @@ const Title = styled(DefaultTitle)`
 const EtherScanLink = styled(DefaultEtherScanLink)`
   min-width: 165px;
   margin-left: auto;
+  color: #47c799;
+
+  &:hover {
+    color: #47c799;
+  }
 `
 
 const Close = styled('img')`

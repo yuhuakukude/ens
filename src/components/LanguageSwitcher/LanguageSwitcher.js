@@ -71,6 +71,7 @@ const ActiveLanguage = styled('div')`
   align-items: center;
   span {
     margin-right: 10px;
+    color: #ffffff;
   }
 
   &:hover {
@@ -81,6 +82,7 @@ const ActiveLanguage = styled('div')`
 const LanguageSwitcherContainer = styled('div')`
   background: white;
   position: relative;
+  background: rgba(147, 196, 178, 0.08);
 `
 
 const Dropdown = styled(motion.div)`

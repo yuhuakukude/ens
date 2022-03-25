@@ -18,7 +18,7 @@ const NetworkInformationContainer = styled('div')`
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 20px;
   ${mq.medium`
-    margin-top: 80px;
+    margin-top: 0px;
     margin-bottom: 50px;
     display: block;
     border: none;
@@ -52,9 +52,10 @@ const NetworkStatus = styled('div')`
   text-transform: capitalize;
   font-weight: 100;
   margin-top: -2px;
-  margin-left: 1px;
+  margin-left: 65px;
   display: flex;
   align-items: center;
+  margin-bottom: 16px;
 
   &:before {
     content: '';
@@ -62,7 +63,7 @@ const NetworkStatus = styled('div')`
     width: 6px;
     height: 6px;
     border-radius: 3px;
-    background: #5284ff;
+    background: #628ffd;
     margin-right: 5px;
   }
 `
@@ -76,10 +77,11 @@ const Account = styled('div')`
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-left: 65px;
 `
 
 const AccountContainer = styled('div')`
-  padding: 10px 10px 10px 65px;
+  padding: 10px 10px 10px 10px;
   position: relative;
   ${mq.medium`
     transform: translate(-25px, 5px);
