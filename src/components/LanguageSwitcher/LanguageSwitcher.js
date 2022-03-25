@@ -90,11 +90,13 @@ const Dropdown = styled(motion.div)`
   background: white;
   top: 100%;
   right: 0;
-  margin-top: 20px;
+  margin-top: 10px;
   border-radius: 8px;
   box-shadow: -4px 18px 70px 0 rgba(108, 143, 167, 0.32);
   width: 230px;
   z-index: 2;
+  max-height: 180px;
+  overflow-y: auto;
   li {
     color: #adbbcd;
     padding: 20px 30px;

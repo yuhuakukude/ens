@@ -184,7 +184,7 @@ const Search = styled(SearchDefault)`
   border-radius: 16px;
   background: rgba(147, 196, 178, 0.08);
   border: 3px solid #25ffb1;
-  overflow: hidden;
+  // overflow: hidden;
   height: 54px;
   ${mq.medium`
     min-width: 780px;

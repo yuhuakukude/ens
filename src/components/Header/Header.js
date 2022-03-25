@@ -69,7 +69,7 @@ const SearchHeader = styled(Search)`
     height: 54px;
     border: 1px solid #ffffff;
     border-radius: 16px;
-    overflow: hidden;
+    // overflow: hidden;
   `}
 
   &:before {
@@ -88,6 +88,7 @@ const SearchHeader = styled(Search)`
     background: #18e199;
     color: #ffffff;
     font-size: 20px;
+    border-radius: 16px;
     &::placeholder {
       color: rgba(255, 255, 255, 0.75);
     }
